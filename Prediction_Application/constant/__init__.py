@@ -11,7 +11,7 @@ CURRENT_TIME_STAMP = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}"
 
 
 # Database related variables
-DATABASE_CLIENT_URL_KEY = "mongodb+srv://nimbalkarhitesh:<hZ4wftcmFhCRHz7p>@rentalbike.5fi8zs7.mongodb.net/test"
+DATABASE_CLIENT_URL_KEY = "mongodb+srv://nimbalkarhitesh:hZ4wftcmFhCRHz7p@rentalbike.5fi8zs7.mongodb.net/test"
 DATABASE_NAME_KEY = "Rental_Bike_Share_DB"
 DATABASE_COLLECTION_NAME_KEY = "RentalBike"
 DATABASE_TRAINING_COLLECTION_NAME_KEY = "Training"

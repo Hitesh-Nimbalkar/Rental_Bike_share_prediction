@@ -9,7 +9,7 @@ Prediction_Application/constant/__init__.py
 Prediction_Application/entity/__init__.py
 Prediction_Application/entity/artifact_entity.py
 Prediction_Application/entity/config_entity.py
-Prediction_Application/exception /__init__.py
+Prediction_Application/exception/__init__.py
 Prediction_Application/logger/__init__.py
 Prediction_Application/pipeline/__init__.py
 Prediction_Application/pipeline/predicition_pipeline.py
