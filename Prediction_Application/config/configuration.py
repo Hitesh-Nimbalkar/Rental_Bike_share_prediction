@@ -6,7 +6,7 @@ from Prediction_Application.logger import logging
 import os,sys 
 
 class Configuration:
-    def __init__(self,config_file_path:str = CONFIG_FILE_NAME,current_time_stamp:str=CURRENT_TIME_STAMP)-> None:
+    def __init__(self,config_file_path:str = CONFIG_FILE_PATH,current_time_stamp:str=CURRENT_TIME_STAMP)-> None:
         try:
             self.config_info = read_yaml_file(file_path=config_file_path)
             self.training_pipeline_config = self.get_training_pipeline_config()
