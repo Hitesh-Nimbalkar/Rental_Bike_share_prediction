@@ -18,3 +18,8 @@
 ## Data Validation
 --------
 ![Data_Validation](https://user-images.githubusercontent.com/109200332/226121268-9ef2e4ca-21d1-4f9b-a6f5-cd8c15323bc4.png)
+
+
+## Data Transformation
+
+![Data Transformation](https://user-images.githubusercontent.com/109200332/226129709-116764b4-8eab-43e8-bacb-934ad7f2ad2a.png)
