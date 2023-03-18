@@ -23,3 +23,7 @@
 ## Data Transformation
 
 ![Data Transformation](https://user-images.githubusercontent.com/109200332/226129709-116764b4-8eab-43e8-bacb-934ad7f2ad2a.png)
+
+## Model Trainer
+
+![image](https://user-images.githubusercontent.com/109200332/226136334-eba75ac6-68d1-4753-8f17-a7128a9eeb47.png)
