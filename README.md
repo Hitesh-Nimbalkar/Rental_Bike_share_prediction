@@ -26,4 +26,5 @@
 
 ## Model Trainer
 
-![image](https://user-images.githubusercontent.com/109200332/226136334-eba75ac6-68d1-4753-8f17-a7128a9eeb47.png)
+
+![Model Trainer](https://user-images.githubusercontent.com/109200332/226136355-3704614b-c6e6-4eb7-b39c-e29ce9127847.png)
