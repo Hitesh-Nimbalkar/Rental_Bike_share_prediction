@@ -1,0 +1,30 @@
+[2023-03-20 01:10:00,537] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Users\\Pixel\\Downloads\\Rental_bike\\Trai_2\\rental_bike_demand\\artifact')
+[2023-03-20 01:10:00,538] root - INFO - 
+******************** Initiating the Training Pipeline ********************
+
+
+[2023-03-20 01:10:00,538] root - INFO - Data Ingestion Config : DataIngestionConfig(dataset_download_url='https://github.com/Shivan118/Main-Branching/blob/main/Rental%20bike%20demand%20data.zip?raw=true', tgz_download_dir='D:\\Users\\Pixel\\Downloads\\Rental_bike\\Trai_2\\rental_bike_demand\\artifact\\data_ingestion\\2023-03-20-01-10-00\\tgz_data', raw_data_dir='D:\\Users\\Pixel\\Downloads\\Rental_bike\\Trai_2\\rental_bike_demand\\artifact\\data_ingestion\\2023-03-20-01-10-00\\raw_data', ingested_train_dir='D:\\Users\\Pixel\\Downloads\\Rental_bike\\Trai_2\\rental_bike_demand\\artifact\\data_ingestion\\2023-03-20-01-10-00\\ingested_data\\train', ingested_test_dir='D:\\Users\\Pixel\\Downloads\\Rental_bike\\Trai_2\\rental_bike_demand\\artifact\\data_ingestion\\2023-03-20-01-10-00\\ingested_data\\test')
+[2023-03-20 01:10:00,547] root - INFO - 
+******************** Data Ingestion log started ********************
+
+[2023-03-20 01:10:00,569] root - INFO - Connection with DB created successfully!!!
+[2023-03-20 01:10:00,569] root - INFO - Downloading file from: [https://github.com/Shivan118/Main-Branching/blob/main/Rental%20bike%20demand%20data.zip?raw=true] into : [D:\Users\Pixel\Downloads\Rental_bike\Trai_2\rental_bike_demand\artifact\data_ingestion\2023-03-20-01-10-00\tgz_data\rental_bike_data.zip]
+[2023-03-20 01:10:01,373] root - INFO - File: [D:\Users\Pixel\Downloads\Rental_bike\Trai_2\rental_bike_demand\artifact\data_ingestion\2023-03-20-01-10-00\tgz_data\rental_bike_data.zip] has been downloaded successfully
+[2023-03-20 01:10:01,373] root - INFO - Extracting zipped file : [D:\Users\Pixel\Downloads\Rental_bike\Trai_2\rental_bike_demand\artifact\data_ingestion\2023-03-20-01-10-00\tgz_data\rental_bike_data.zip] into dir: [D:\Users\Pixel\Downloads\Rental_bike\Trai_2\rental_bike_demand\artifact\data_ingestion\2023-03-20-01-10-00\raw_data]
+[2023-03-20 01:10:01,396] root - INFO - Extraction completed successfully
+[2023-03-20 01:10:03,083] root - INFO - Inserting file: [Rental_Bike_Share_Data_20181231_231206.csv] into DB
+[2023-03-20 01:10:03,083] root - INFO - Inserting data into database:[Rental_Bike_Share_DB] in collection: [RentalBike]
+[2023-03-20 01:10:13,796] root - INFO - Insertion into DB is successful!!! 
+[2023-03-20 01:10:13,852] root - INFO - Inserting file: [Rental_Bike_Share_Data_20191231_233050.csv] into DB
+[2023-03-20 01:10:13,852] root - INFO - Inserting data into database:[Rental_Bike_Share_DB] in collection: [RentalBike]
+[2023-03-20 01:10:21,719] root - INFO - Insertion into DB is successful!!! 
+[2023-03-20 01:10:21,797] root - INFO - Inserting file: [Rental_Bike_Share_Data_20201231_235040.csv] into DB
+[2023-03-20 01:10:21,797] root - INFO - Inserting data into database:[Rental_Bike_Share_DB] in collection: [RentalBike]
+[2023-03-20 01:10:30,069] root - INFO - Insertion into DB is successful!!! 
+[2023-03-20 01:10:30,145] root - INFO - Inserting file: [Rental_Bike_Share_Data_20211231_235540.csv] into DB
+[2023-03-20 01:10:30,145] root - INFO - Inserting data into database:[Rental_Bike_Share_DB] in collection: [RentalBike]
+[2023-03-20 01:10:42,468] root - INFO - Insertion into DB is successful!!! 
+[2023-03-20 01:10:42,498] root - INFO - Inserting file: [Rental_Bike_Share_Data_20221231_235915.csv] into DB
+[2023-03-20 01:10:42,498] root - INFO - Inserting data into database:[Rental_Bike_Share_DB] in collection: [RentalBike]
+[2023-03-20 01:10:49,592] root - INFO - Insertion into DB is successful!!! 
+[2023-03-20 01:10:49,592] root - INFO - Fetching entire data from DB

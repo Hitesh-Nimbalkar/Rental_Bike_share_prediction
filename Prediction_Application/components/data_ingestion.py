@@ -75,7 +75,6 @@ class DataIngestion:
     def data_merge_and_split(self):
         try:
             raw_data_dir = self.data_ingestion_config.raw_data_dir  # Location for extracted data files
-            
             file_name = os.listdir(raw_data_dir)[0]
             data_file_path = os.path.join(raw_data_dir,file_name)
             
