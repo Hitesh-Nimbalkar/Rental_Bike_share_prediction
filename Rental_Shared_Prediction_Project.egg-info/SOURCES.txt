@@ -1,7 +1,9 @@
+README.md
 setup.py
 Prediction_Application/__init__.py
 Prediction_Application/components/__init__.py
 Prediction_Application/components/data_ingestion.py
+Prediction_Application/components/data_validation.py
 Prediction_Application/components/dbOperation.py
 Prediction_Application/config/__init__.py
 Prediction_Application/config/configuration.py

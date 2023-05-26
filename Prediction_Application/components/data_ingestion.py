@@ -53,24 +53,24 @@ class DataIngestion:
         except Exception as e:
             raise ApplicationException(e,sys) from e
 
-    def extract_tgz_file(self,tgz_file_path:str):
+    def extract_tgz_file(self, tgz_file_path: str):
         try:
-            # Folder location to extract the downloaded zipped dataset files
+            # Folder location to extract the downloaded tgz dataset files
             raw_data_dir = self.data_ingestion_config.raw_data_dir
             if os.path.exists(raw_data_dir):
                 os.remove(raw_data_dir)
-            os.makedirs(raw_data_dir,exist_ok=True)
+            os.makedirs(raw_data_dir, exist_ok=True)
 
-            logging.info(f"Extracting zipped file : [{tgz_file_path}] into dir: [{raw_data_dir}]")
-            # Extarcting the files from zipped file
-            zip_ref = zipfile.ZipFile(tgz_file_path)
-            zip_ref.extractall(raw_data_dir)
-            zip_ref.close()
+            logging.info(f"Extracting tgz file: [{tgz_file_path}] into dir: [{raw_data_dir}]")
+            
+            # Extracting the files from the tgz file
+            with tarfile.open(tgz_file_path, 'r:gz') as tar:
+                tar.extractall(raw_data_dir)
 
             logging.info("Extraction completed successfully")
 
         except Exception as e:
-            raise ApplicationException(e,sys) from e
+            raise ApplicationException(e, sys) from e
 
     def data_merge_and_split(self):
         try:

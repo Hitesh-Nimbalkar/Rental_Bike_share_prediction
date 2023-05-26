@@ -1,7 +1,7 @@
 
 from flask import Flask, render_template,request, send_file, redirect,url_for,flash
 from flask_cors import CORS, cross_origin
-from Prediction_Application.pipeline.prediction_pipeline import Prediction
+from Prediction_Application.pipeline.predicition_pipeline import Prediction
 from Prediction_Application.pipeline.training_pipeline import Training_Pipeline
 from Prediction_Application.constant import *
 from Prediction_Application.logger import logging

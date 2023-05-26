@@ -1,0 +1,13 @@
+[2023-05-26 19:16:27,011] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='E:\\Ineuron may batch projects\\Projects\\Bike_Prediction\\rental_bike_demand\\artifact')
+[2023-05-26 19:16:27,011] root - INFO - 
+******************** Initiating the Training Pipeline ********************
+
+
+[2023-05-26 19:16:27,011] root - INFO - Data Ingestion Config : DataIngestionConfig(dataset_download_url='https://drive.google.com/file/d/1IiPmaEYWVk5S7R2ZQ3qUJiCX_UT725vt/view?usp=share_link', tgz_download_dir='E:\\Ineuron may batch projects\\Projects\\Bike_Prediction\\rental_bike_demand\\artifact\\data_ingestion\\2023-05-26-19-16-26\\tgz_data', raw_data_dir='E:\\Ineuron may batch projects\\Projects\\Bike_Prediction\\rental_bike_demand\\artifact\\data_ingestion\\2023-05-26-19-16-26\\raw_data', ingested_train_dir='E:\\Ineuron may batch projects\\Projects\\Bike_Prediction\\rental_bike_demand\\artifact\\data_ingestion\\2023-05-26-19-16-26\\ingested_data\\train', ingested_test_dir='E:\\Ineuron may batch projects\\Projects\\Bike_Prediction\\rental_bike_demand\\artifact\\data_ingestion\\2023-05-26-19-16-26\\ingested_data\\test')
+[2023-05-26 19:16:27,013] root - INFO - 
+******************** Data Ingestion log started ********************
+
+[2023-05-26 19:16:27,108] root - INFO - Connection with DB created successfully!!!
+[2023-05-26 19:16:27,109] root - INFO - Downloading file from: [https://drive.google.com/file/d/1IiPmaEYWVk5S7R2ZQ3qUJiCX_UT725vt/view?usp=share_link] into : [E:\Ineuron may batch projects\Projects\Bike_Prediction\rental_bike_demand\artifact\data_ingestion\2023-05-26-19-16-26\tgz_data\rental_bike_data.zip]
+[2023-05-26 19:16:27,930] root - INFO - File: [E:\Ineuron may batch projects\Projects\Bike_Prediction\rental_bike_demand\artifact\data_ingestion\2023-05-26-19-16-26\tgz_data\rental_bike_data.zip] has been downloaded successfully
+[2023-05-26 19:16:27,930] root - INFO - Extracting zipped file : [E:\Ineuron may batch projects\Projects\Bike_Prediction\rental_bike_demand\artifact\data_ingestion\2023-05-26-19-16-26\tgz_data\rental_bike_data.zip] into dir: [E:\Ineuron may batch projects\Projects\Bike_Prediction\rental_bike_demand\artifact\data_ingestion\2023-05-26-19-16-26\raw_data]
